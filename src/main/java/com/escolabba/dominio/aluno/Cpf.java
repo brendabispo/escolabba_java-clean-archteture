@@ -1,6 +1,6 @@
-package com.escolabba;
+package com.escolabba.dominio.aluno;
 
-public class Cpf {
+public class Cpf {//Essa classe, em clean archteture é chamada de Value Object (VO) pois não tem um identificador único e duas instâncias são iguais a partir da comparação de todos seus atributos.
     private String numero;
 
     public Cpf(String numero) {

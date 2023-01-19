@@ -1,4 +1,4 @@
-package com.escolabba;
+package com.escolabba.dominio.aluno;
 
 public class Email {
 

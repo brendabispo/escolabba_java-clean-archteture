@@ -1,5 +1,6 @@
-package com.escolabba;
+package com.escolabba.dominio.aluno;
 
+import com.escolabba.dominio.aluno.Email;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

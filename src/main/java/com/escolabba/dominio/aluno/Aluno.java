@@ -1,10 +1,10 @@
-package com.escolabba;
+package com.escolabba.dominio.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Aluno {
-
+public class Aluno {//Esta classe, no contexto da clean archteture, é chamada Entidade, pois possui um atributo identificador único, no caso o cpf.
+                    //Dois alunos podem ter o mesmo nome, mas o cpf será diferente.
     private Cpf cpf;
     private String nome;
     private Email email;
