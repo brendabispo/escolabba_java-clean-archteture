@@ -11,6 +11,5 @@ public interface RepositorioDeAlunos {
 
     Aluno buscarPorCpf(Cpf cpf);
 
-    List<Aluno> ListarTodosAlunosMatriculados();
-
+    List<Aluno> listarTodosAlunosMatriculados();
 }

@@ -11,6 +11,8 @@ public class Aluno {//Esta classe, no contexto da clean archteture, é chamada E
 
     private List<Telefone> telefones = new ArrayList<>();
 
+    private String senha;
+
     public Aluno(Cpf cpf, String nome, Email email) {
         this.cpf = cpf;
         this.nome = nome;
@@ -21,8 +23,8 @@ public class Aluno {//Esta classe, no contexto da clean archteture, é chamada E
         this.telefones.add(new Telefone(ddd, numero));
     }
 
-    public Cpf getCpf() {
-        return cpf;
+    public String getCpf() {
+        return cpf.getNumero();
     }
 
     public void setCpf(Cpf cpf) {
@@ -37,8 +39,8 @@ public class Aluno {//Esta classe, no contexto da clean archteture, é chamada E
         this.nome = nome;
     }
 
-    public Email getEmail() {
-        return email;
+    public String getEmail() {
+        return email.getEndereco();
     }
 
     public void setEmail(Email email) {
