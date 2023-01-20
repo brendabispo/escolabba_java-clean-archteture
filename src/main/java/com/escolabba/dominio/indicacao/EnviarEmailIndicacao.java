@@ -1,4 +1,4 @@
-package com.escolabba.aplicacao.indicacao;
+package com.escolabba.dominio.indicacao;
 
 import com.escolabba.dominio.aluno.Aluno;
 
